@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding:0;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h1 {font-size: 3.5em;}
+h2 {font-size: 1em; padding: 10px; margin-left: 5px;}
+h3 {font-size: 2em;}
+p {font-size: 1em;}
+ul {list-style: none;}
+li {font-size: 1.25em;}
+
+.parrafoindex {
+    margin-left: 5px;
+    padding: 10px;
+}
+
+button {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 10px black;
+    color: white;
+    background-color: coral
+}
+
+.botonproducto {
+    font-size: 1em;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 20px black;
+    color: black;
+    background-color: coral
+}
+
+.botonpreguntas {
+    font-size: 1em;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 1px 1px 10px black;
+    color: black;
+    background-color: coral
+}
+
+button:hover {
+    background-color: rgb(218, 77, 26)
+}
+
+.container {
+    max-width: 1400px;
+    margin: auto;
+}
+
+.container2 {
+    max-width: 1400px;
+    margin: auto;
+}
+
+header {
+    background-color: rgb (245,245,245) ;
+}
+
+header .logo{
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: coral;
+    font-size: 1.50em;
+
+}
+
+header .container {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+header nav {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+header a:hover {
+    color: coral;
+}
+
+#hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh; 
+    color: white;
+    background-image: url("../Img/PNG1.png");
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("../Img/PNG2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.top {
+    background-color: black;
+    color: white;
+    padding: 1rem 1rem;
+    text-align: center;
+}
+
+#somosoutsider .container {
+    text-align: center;
+    padding: 200px 10px;
+}
+
+#nuestros-programas {
+    background-color: rgb(30,30,30);
+    color: white;
+    text-align: center;
+}
+
+#nuestros-programas .container {
+padding: 150px 12px;
+}
+
+#nuestros-programas h2{
+    margin-top: 0;
+    font-size: 3.2em;
+}
+
+#nuestros-programas p{
+    display: none;
+}
+
+#nuestros-programas .carta {
+    background-position: center center;
+    background-size: cover;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.carta:first-child {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+        ,url("../Img/img1.jpg");
+}
+
+.carta:nth-child(2) {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+        ,url("../Img/img2.jpg");
+}
+
+.carta:nth-child(3) {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+        ,url("../Img/img3.jpg");
+}
+
+#nuestros-programas2 .carta2 {
+    background-position: center center;
+    background-size: cover;
+    padding: 10px;
+    margin: 50px;
+    border-radius: 10px;
+}
+
+.carta2:first-child {
+    background-image: linear-gradient(
+        1deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0)
+    )
+}
+
+.carta2:nth-child(2) {
+    background-image: linear-gradient(
+        1deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0)
+    )
+
+}
+
+.carta2:nth-child(3) {
+    background-image: linear-gradient(
+        1deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0)
+    )
+}
+
+.pregparrafo {
+    color: aliceblue;
+    
+}
+
+#caracteristicas .conteiner {
+    text-align: center;
+    padding: 200px 12px;
+}
+
+.buscadorindex {
+    justify-content: center;
+    align-items: center;
+    padding: 20px 15px;
+    flex-direction: column;
+    display: flex;
+    font-weight: lighter;
+    height: 5vh; 
+    margin-top: 20px;
+}
+
+#caracteristicas li{
+    margin: 12px 0px;
+    font-weight: bold;
+
+}
+
+#comunicatewp {
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    text-align: center;
+    flex-direction: column;
+    background-color: rgb(20,20,20);
+    color: white;
+    height: 70vh;
+}
+
+#comunicatewp h2 {
+    font-size: 9vw;
+}
+
+#final button{
+    font-size: 5vw;
+}
+
+footer p{ 
+    margin: 0;
+    text-align: center;
+    justify-content: center;
+    color: black;
+    display: flex;
+    font-weight: bold;
+    font-size: 1.2vh;
+    align-items: flex-end;
+    padding: 12px;
+}
+
+footer .container {
+    height: 150px;
+}
+
+@media (min-width:720px){
+    header .container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+header nav {
+    flex-direction: row;
+    padding-bottom: 0;
+    padding-right: 20px;
+}
