@@ -119,10 +119,10 @@ header a:hover {
     background-image: url("../Img/PNG1.png");
     background-image: linear-gradient(
         0deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
+        rgb(0, 0, 0),
+        rgb(0, 0, 0)
     )
-    ,url("../Img/PNG2.png");
+    ,url("../Img/PNG2.p");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;

@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "Outsiders Clothing Proyect",
+			"path": "."
+		},
+		{
+			"name": "Img",
+			"path": "Img"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Outsiders Clothing Proyect"
+	}
+}
