@@ -248,13 +248,6 @@ footer .container {
     height: 150px;
 }
 
-@media (min-width:720px){
-    header .container{
-        flex-direction: row;
-        justify-content: space-between;
-    }
-}
-
 header nav {
     flex-direction: row;
     padding-bottom: 0;
