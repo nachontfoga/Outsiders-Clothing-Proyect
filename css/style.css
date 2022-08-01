@@ -178,64 +178,12 @@ padding: 150px 12px;
     border-radius: 10px;
 }
 
-.carta:first-child {
-    background-image: linear-gradient(
-        0deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
-    )
-        ,url("../Img/img1.jpg");
-}
-
-.carta:nth-child(2) {
-    background-image: linear-gradient(
-        0deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
-    )
-        ,url("../Img/img2.jpg");
-}
-
-.carta:nth-child(3) {
-    background-image: linear-gradient(
-        0deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0.5)
-    )
-        ,url("../Img/img3.jpg");
-}
-
 #nuestros-programas2 .carta2 {
     background-position: center center;
     background-size: cover;
     padding: 10px;
     margin: 50px;
     border-radius: 10px;
-}
-
-.carta2:first-child {
-    background-image: linear-gradient(
-        1deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0)
-    )
-}
-
-.carta2:nth-child(2) {
-    background-image: linear-gradient(
-        1deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0)
-    )
-
-}
-
-.carta2:nth-child(3) {
-    background-image: linear-gradient(
-        1deg,
-        rgba(0,0,0,0.5),
-        rgba(0,0,0,0)
-    )
 }
 
 .pregparrafo {
@@ -288,7 +236,7 @@ footer p{
     margin: 0;
     text-align: center;
     justify-content: center;
-    color: white;
+    color: black;
     display: flex;
     font-weight: bold;
     font-size: 1.2vh;
