@@ -142,8 +142,8 @@ header a:hover {
 .top {
     background-color: black;
     color: white;
-    padding: 1rem 1rem;
-    text-align: center;
+    padding: 0,5rem 0,5rem;
+    text-align: center
 }
 
 #somosoutsider .container {
