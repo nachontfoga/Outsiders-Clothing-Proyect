@@ -1,62 +1,84 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 html {
   font-size: 80%;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
 
 body {
   margin: 0;
   padding: 0;
   line-height: 1.6;
-  font-family: 'Open Sans', sans-serif; }
+  font-family: "Open Sans", sans-serif;
+}
 
 ul {
-  list-style-type: none; }
+  list-style-type: none;
+}
 
 a {
   text-decoration-color: blue;
   display: inline-block;
-  color: black; }
+  color: black;
+}
 
 img {
   width: 80%;
-  height: auto; }
+  height: auto;
+}
 
 p {
   font-size: 1.5rem;
-  color: white;
+  color: rgb(255, 255, 255);
   font-weight: lighter;
-  background-color: black; }
+  background-color: black;
+}
 
 h1 {
   font-size: 2.5rem;
   font-weight: bolder;
   text-align: center;
-  margin-top: 2rem;
-  margin-bottom: 2rem; }
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
 
 h2 {
-  font-size: 2.4rem;
+  font-size: 1.5rem;
   text-align: center;
-  margin-top: 2rem;
-  margin-bottom: 2rem; }
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  background-color: black;
+  color: aliceblue;
+}
 
 h3 {
-  font-size: 2rem; }
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-weight: bolder;
+}
 
 h1 {
-  color: 255; }
+  color: 255;
+}
 
 .botones {
   color: white;
   background-color: black;
-  justify-content: center; }
+  justify-content: center;
+}
 
 .footer-content {
   background-color: black;
   color: white;
   font-weight: lighter;
   font-size: 1rem;
-  text-align: center; }
+  text-align: center;
+  margin-top: 2rem;
+}
 
 #fuentemenu {
-  font-weight: bolder; }
+  font-weight: bolder;
+}
+
+/*# sourceMappingURL=style.css.map */
