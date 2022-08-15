@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+html {
+    font-size: 80%;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    font-family: 'Open Sans', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration-color: blue;
+    display: inline-block;
+    color: black;
+}
+
+img {
+    width: 80%;
+    height: auto;
+}
+
+// Variables //
+
+$font-p: 1.5rem;
+$font-h1: 2.5rem;
+$font-h2: 2.4rem;
+$font-h3: 2.0rem;
+
+p {
+    font-size: $font-p;
+    color: rgb(255, 255, 255);
+    font-weight:lighter;
+    background-color: black;
+
+
+}
+
+h1 {
+    font-size: $font-h1;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+h2 { 
+    font-size: $font-h2;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+h3 {
+    font-size: $font-h3;
+}
